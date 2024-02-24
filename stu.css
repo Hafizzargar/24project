@@ -1,0 +1,64 @@
+.top{
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    
+    
+}
+.se{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+.sea1{
+    padding: 10px;
+    background-color: black;
+    color: white;
+
+}
+#inp1{
+    width: 80vw;
+    padding: 10px;
+   
+}
+.linediv{
+    /* display: grid;
+    grid-template-columns: repeat(6,1fr); */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+
+}
+.linediv>div{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    cursor: pointer;
+   
+
+}
+#table,th,td{
+    border: 1px solid black;
+    
+}
+th,td{
+    width: 100px;
+}
+#id{
+    width: 40px;
+}
+#name{
+    width: 300px;
+}

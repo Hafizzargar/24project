@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stu.css">
+</head>
+<body>
+    <div class="top">Student Portal</div>
+    <div class="se" > <input type="text" placeholder="Search..." id="inp1" >
+        <button class="sea1" onclick="search()">SEARCH</button>
+    </div>
+    <div class="linediv">
+        <div id="sortacc">Sort A->Z</div>
+        <div id="sortdec"> Sort Z->A</div>
+        <div id="sortmark">Sort By Marks</div>
+        <div id="sortvyclass">Sort By Passing</div>
+        <div id="sortbygender">Sort By Class</div>
+        <div>Sort By Gender</div>
+    </div>
+    <div>
+        <table id="table">
+            <thead>
+                <tr>
+                    <th id="id">ID</th>
+                    <th id="name">Name</th>
+                    <th id="gender">Gender</th>
+                    <th >Class</th>
+                    <th>Marks</th>
+                    <th>Passing</th>
+                    <th>Email</th>
+    
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+           
+        </table>
+    </div>
+
+
+    <script src="./stu.js"></script>
+
+
+
+    
+</body>
+</html>
